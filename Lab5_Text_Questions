@@ -1,0 +1,76 @@
+
+1a)   A Collection is an Interface.
+
+b)    Collection is a subinterface of Iterable
+
+c)	  An interface cannot be instainiated so it has no need for constructor methods
+
+d)	  Collection belongs to the java.util package
+
+e)    Collection has 11 subinterfaces. List is one.
+
+  	  others:
+  	  BeanContext, 
+  	  BeanContextServices, 
+  	  BlockingDeque<E>, 
+  	  BlockingQueue<E>, 
+  	  Deque<E>,  
+  	  NavigableSet<E>, 
+  	  Queue<E>, 
+  	  Set<E>, 
+  	  SortedSet<E>, 
+  	  TransferQueue<E>
+
+f)  Methods that reutrn somtehting about Collection without changing it
+    int size()
+    boolean isEmpty()
+    boolean contains(Object o)
+    Object[] toArray() -creates array but does not change collection
+    boolean containsAll(Collection<?> c)
+    boolean equals(Object o)
+    int hashCode()
+    Iterator<E> iterator()
+    
+g)	Methods of Collection that make changes in the collection
+	boolean add(E e)
+	boolean remove(Object o)
+	boolean addAll(Collection<? extends E> c)
+	boolean removeAll(Collection<?> c)
+	boolean retainAll(Collection<?> c)
+	void clear()
+	
+2a)	AbstractCollection is a class
+
+b)	AbstractCollection extends Object
+
+c)	AbstractCollection implements Collection
+
+d)	AbstractCollection is Abstract. We know this because it contains abstract methods
+ 	and it also has abstract in it's header.
+ 	
+e)	AbstractCollection has 2 abstract methods:
+	public abstract Iterator<E> iterator()
+	public abstract int size()
+	
+f)	Abstract methods have abstract in the header and they do not have any inner code.
+
+g)  You can not instaniate AbstractCollection because it is an abstract class. Rather the 
+	programmer should extend it to a new class.
+	
+		
+3.	If you add more names to the Tree set, they will fall in sorted. names starting with 
+	a lower case letter come after all names with higher case first letter names.	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	 		
+	   
+   
+
